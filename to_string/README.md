@@ -1,5 +1,5 @@
-Why std::to string is anoying, cumbersome and incomplete.
-=========================================================
+Why std::to string is anoying and cumbersome.
+=============================================
 
 This directory contains two examples of usage of number to string conversion from a template function.
 One using boost::lexical\_cast and one using std::to\_string and std::to\_wstring. 
