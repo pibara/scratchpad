@@ -14,9 +14,9 @@ These examples were made for a discussion on G+ [here](https://plus.google.com/1
 
 With boost::lexical\_cast we can simply do:
 
- __std::basic_string<C> asstring = boost::lexical_cast<std::basic_string<C> >(mX);__
+ __std::basic_string\<C> asstring = boost::lexical_cast\<std::basic_string\<C> >(mX);__
 
 With std::to\_string we must first write template specialisations of a helper class with a static method before we can 
 use the (ugly) equivalent:
 
-__std::basic_string<C> asstring = bar<T,std::basic_string<C> >::to_xstring(mX);__
+__std::basic_string\<C> asstring = bar\<T,std::basic_string\<C> >::to_xstring(mX);__
